@@ -57,7 +57,7 @@ istream& operator>>(istream& istr, CourseRegistration& c)
 
     c.getStudentID().clear();
     c.getCourseGrade().clear();
-    cout << "size:" << c.getStudentID().size() << endl;
+
     // 학생 정보
     for(int i = 0; i < studentNum; i++)
     {
